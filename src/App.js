@@ -1,4 +1,4 @@
-// src/App.js
+
 import React from 'react';
 import ChatWindow from './features/chat/ChatWindow';
 import { ThemeProvider, createTheme } from '@mui/material/styles';

@@ -1,4 +1,4 @@
-// src/features/chat/MessageItem.js
+
 import React from 'react';
 import { Box, Typography, Avatar } from '@mui/material';
 

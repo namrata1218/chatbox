@@ -1,4 +1,3 @@
-// src/features/chat/ChatWindow.js
 import React from 'react';
 import { Box, Paper, Typography } from '@mui/material';
 import MessageList from './MessageList';

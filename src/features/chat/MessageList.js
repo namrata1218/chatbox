@@ -1,4 +1,3 @@
-// src/features/chat/MessageList.js
 import React, { useEffect, useRef, useTransition } from 'react';
 import { useSelector } from 'react-redux';
 import { Box, Fade } from '@mui/material';
@@ -9,7 +8,7 @@ const MessageList = () => {
   const messagesEndRef = useRef(null);
   const [isPending, startTransition] = useTransition();
 
-  // Scroll to the bottom when messages change
+  
   useEffect(() => {
     startTransition(() => {
       messagesEndRef.current?.scrollIntoView({ behavior: 'smooth' });
